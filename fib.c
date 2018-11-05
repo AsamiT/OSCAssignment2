@@ -1,8 +1,9 @@
 /**
 
 	fib.c
-	(c) Robert Maloy, 2018
-	All rights reserved.
+	Copyright (c) 2018, Robert Maloy
+    Licensed for use or redistribution through the GNU GPL v2.0 License.
+    @date: 5 November 2018
 	
 	**/
 
