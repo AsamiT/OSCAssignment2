@@ -85,10 +85,12 @@ int main(int argc, char *argv[]) {
 	pthread_t threadIdent;
 	pthread_create(&threadIdent, NULL, fib, numPass);
 	pthread_join(threadIdent, NULL);
+	
+	printf("	F(x)	|	Value\n");
 
 	for (int z = 0; z <= numPass; z++) {
 		int arrayVal = *(p + z);
-		printf("F(%d): %d\n", z, arrayVal);
+		printf("	%d	|	 %d\n", z, arrayVal);
 	}
 	exit(0); //exit program.
 }
